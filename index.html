@@ -2,64 +2,110 @@
 <html lang="es-ES">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Barranco Vivo - Festival de Tamaraceite</title>
   <style>
     body {
-      background-color: #eaf4f2;
-      color: #1c2b33;
-      font-family: Verdana, Arial, sans-serif;
+      background-color: #f0f8ff;
+      color: #222222;
+      font-family: Arial, Verdana, sans-serif;
       font-size: 16px;
-      margin: 0;
     }
+
     header {
-      background-color: #0b3c4d;
-      color: #ffffff;
+      background-color: darkslategray;
+      color: white;
       padding: 20px;
       text-align: center;
     }
-    main { padding: 20px; }
+
     footer {
-      background-color: #0b3c4d;
-      color: #ffffff;
-      padding: 20px;
+      background-color: darkslategray;
+      color: white;
+      padding: 15px;
       text-align: center;
     }
-    footer ul { list-style: none; padding: 0; }
-    footer li { display: inline; margin: 0 10px; }
-    footer a { color: #ffd166; }
-    h1 { font-size: 40px; color: #ffd166; }
-    h2 { font-size: 26px; color: #0b3c4d; border-bottom: 3px solid #ff6b57; }
-    h3 { font-size: 20px; color: #c4452f; }
-    h4 { font-size: 16px; color: #1d7a8c; }
-    a { color: #0b5a73; }
-    header a { color: #ffffff; }
-    img { max-width: 300px; height: auto; }
+
+    h1 {
+      color: gold;
+    }
+
+    h2 {
+      color: darkslategray;
+    }
+
+    h3 {
+      color: firebrick;
+    }
+
+    h4 {
+      color: teal;
+    }
+
+    a {
+      color: teal;
+    }
+
+    header a {
+      color: gold;
+    }
+
+    footer a {
+      color: gold;
+    }
+
     article {
-      background-color: #ffffff;
-      border-left: 5px solid #ff6b57;
-      padding: 10px 15px;
-      margin-bottom: 15px;
+      background-color: white;
+      padding: 15px;
+      border-style: solid;
+      border-width: 2px;
+      border-color: coral;
     }
+
     aside {
-      background-color: #ffe9b0;
-      border: 2px solid #ffd166;
-      padding: 10px 20px;
+      background-color: lemonchiffon;
+      padding: 15px;
+      border-style: solid;
+      border-width: 2px;
+      border-color: gold;
     }
+
     table, th, td {
       border: 1px solid black;
       border-collapse: collapse;
+      text-align: center;
     }
-    th, td { padding: 6px; background-color: #ffffff; }
-    th { background-color: #1d7a8c; color: #ffffff; }
-    fieldset { background-color: #ffffff; border: 2px solid #1d7a8c; margin-bottom: 10px; }
-    legend { color: #0b3c4d; font-weight: bold; }
-    button {
-      background-color: #c4452f;
+
+    th {
+      background-color: teal;
       color: white;
-      font-size: 16px;
-      padding: 8px 16px;
-      border: none;
+      padding: 8px;
+    }
+
+    td {
+      background-color: white;
+      padding: 8px;
+    }
+
+    caption {
+      color: darkslategray;
+      font-weight: bold;
+      padding: 8px;
+    }
+
+    fieldset {
+      background-color: white;
+    }
+
+    legend {
+      color: darkslategray;
+      font-weight: bold;
+    }
+
+    button {
+      background-color: firebrick;
+      color: white;
+      padding: 10px;
     }
   </style>
 </head>
@@ -67,18 +113,15 @@
 
   <header>
     <h1>Barranco Vivo</h1>
-    <p><em>«Cuando el barranco canta, Tamaraceite baila»</em></p>
-    <p>Festival de música y cultura · Tamaraceite, Las Palmas de Gran Canaria</p>
-    <p><strong>Viernes 18 y sábado 19 de junio de 2027</strong></p>
+    <p><em>"Cuando el barranco canta, Tamaraceite baila"</em></p>
+    <p>Tamaraceite, Las Palmas de Gran Canaria - <strong>18 y 19 de junio de 2027</strong></p>
     <nav>
-      <ul>
-        <li><a href="#presentacion">Presentación</a></li>
-        <li><a href="#artistas">Artistas</a></li>
-        <li><a href="#programa">Programa</a></li>
-        <li><a href="#informacion">Información útil</a></li>
-        <li><a href="#inscripcion">Inscripción</a></li>
-        <li><a href="#privacidad">Privacidad</a></li>
-      </ul>
+      <a href="#presentacion">Presentación</a> |
+      <a href="#artistas">Artistas</a> |
+      <a href="#programa">Programa</a> |
+      <a href="#informacion">Info útil</a> |
+      <a href="#inscripcion">Inscripción</a> |
+      <a href="#privacidad">Privacidad</a>
     </nav>
   </header>
 
@@ -86,27 +129,20 @@
     <section id="presentacion">
       <h2>Presentación del festival</h2>
       <figure>
-        <img src="cartel-barranco.svg" width="800" height="500" alt="Cartel ilustrado del festival: un atardecer naranja y rojo sobre las montañas de un barranco con un sol amarillo.">
-        <figcaption>Cartel de Barranco Vivo 2027.</figcaption>
+        <img src="cartel-barranco.svg" alt="Cartel del festival Barranco Vivo" style="width: 300px;">
+        <figcaption>Cartel de Barranco Vivo 2027</figcaption>
       </figure>
-      <p>
-        <strong>Barranco Vivo</strong> es el festival anual de música y actividades culturales de
-        Tamaraceite, en Las Palmas de Gran Canaria. Durante dos días, las plazas y los espacios
-        al aire libre del barrio se llenan de conciertos, talleres y juegos para todas las edades.
-      </p>
-      <p>Nuestros objetivos son:</p>
+      <p><strong>Barranco Vivo</strong> es el festival de música y cultura que hacemos cada año en Tamaraceite. Durante todo el fin de semana habrá conciertos, talleres y actividades al aire libre para gente de todas las edades.</p>
+      <p>Lo que buscamos con este evento es:</p>
       <ul>
-        <li>Dar visibilidad a artistas y colectivos canarios.</li>
-        <li>Acercar la música y la cultura a todas las generaciones del barrio.</li>
-        <li>Fomentar el comercio local y el cuidado del entorno del barranco.</li>
+        <li>Apoyar a grupos y artistas de aquí de Canarias.</li>
+        <li>Traer música y buen ambiente a los vecinos del barrio.</li>
+        <li>Fomentar los comercios de la zona y cuidar nuestro barranco.</li>
       </ul>
-      <p>
-        Más información en el
-        <a href="https://www.laspalmasgc.es/" target="_blank" rel="noopener noreferrer">Ayuntamiento de Las Palmas de Gran Canaria</a>
-        y en
-        <a href="https://es.wikipedia.org/wiki/Tamaraceite" target="_blank" rel="noopener noreferrer">Wikipedia</a>.
-      </p>
+      <p>Puedes ver más cosas sobre el barrio en la web del <a href="https://www.laspalmasgc.es/" target="_blank">Ayuntamiento de Las Palmas de Gran Canaria</a> o en <a href="https://es.wikipedia.org/wiki/Tamaraceite" target="_blank">Wikipedia</a>.</p>
     </section>
+
+    <hr>
 
     <section id="artistas">
       <h2>Artistas y actividades</h2>
@@ -114,41 +150,45 @@
       <article>
         <h3>Timple y Marea</h3>
         <figure>
-          <img src="timple-y-marea.svg" width="800" height="500" alt="Ilustración de un timple amarillo sobre un fondo de olas azules.">
+          <img src="timple-y-marea.svg" alt="Dibujo de un timple amarillo con olas" style="width: 250px;">
           <figcaption>Timple y Marea</figcaption>
         </figure>
-        <p>Cuarteto de folclore renovado que mezcla timple, guitarra y ritmos del Atlántico.</p>
+        <p>Grupo de música canaria que mezcla el sonido del timple y la guitarra con ritmos más modernos.</p>
         <h4>Cuándo y dónde</h4>
-        <p>Sábado, 21:30 h. Escenario Plaza.</p>
+        <p>Sábado a las 21:30 h en el Escenario Plaza.</p>
       </article>
+      <br>
 
       <article>
         <h3>Colectivo Machango</h3>
         <figure>
-          <img src="colectivo-machango.svg" width="800" height="500" alt="Círculos concéntricos de colores cálidos y barras amarillas que recuerdan a un ecualizador.">
+          <img src="colectivo-machango.svg" alt="Dibujo de ecualizador de colores" style="width: 250px;">
           <figcaption>Colectivo Machango</figcaption>
         </figure>
-        <p>Sesión de música electrónica con influencias latinas y percusiones en directo.</p>
+        <p>Sesión de música electrónica mezclada con ritmos latinos y percusión en directo para cerrar la noche.</p>
         <h4>Cuándo y dónde</h4>
-        <p>Sábado, 23:00 h. Escenario Plaza.</p>
+        <p>Sábado a las 23:00 h en el Escenario Plaza.</p>
       </article>
+      <br>
 
       <article>
         <h3>Taller Tambor de Callejón</h3>
         <figure>
-          <img src="tambor-de-callejon.svg" width="800" height="500" alt="Dos tambores, uno rojo y otro azul, con dos baquetas sobre un fondo color arena.">
+          <img src="tambor-de-callejon.svg" alt="Dos tambores con baquetas" style="width: 250px;">
           <figcaption>Taller Tambor de Callejón</figcaption>
         </figure>
-        <p>Taller participativo de percusión para todas las edades. No hace falta experiencia.</p>
+        <p>Taller abierto para aprender a tocar el tambor en grupo. Puede apuntarse cualquiera, no hace falta saber tocar.</p>
         <h4>Cuándo y dónde</h4>
-        <p>Sábado, 12:00 h. Carpa Cultural.</p>
+        <p>Sábado a las 12:00 h en la Carpa Cultural.</p>
       </article>
     </section>
+
+    <hr>
 
     <section id="programa">
       <h2>Programa del sábado 19 de junio</h2>
       <table>
-        <caption>Programación de Barranco Vivo 2027</caption>
+        <caption>Horarios de Barranco Vivo 2027</caption>
         <thead>
           <tr>
             <th>Hora</th>
@@ -158,135 +198,163 @@
           </tr>
         </thead>
         <tbody>
-          <tr><td>10:30</td><td>Recepción y mercadillo local</td><td>Calle del Barranco</td><td>90 min</td></tr>
-          <tr><td>12:00</td><td>Taller Tambor de Callejón</td><td>Carpa Cultural</td><td>60 min</td></tr>
-          <tr><td>13:30</td><td>Pasacalles de timples</td><td>Plaza de Tamaraceite</td><td>45 min</td></tr>
-          <tr><td>17:00</td><td>Juegos tradicionales canarios</td><td>Parque del barrio</td><td>120 min</td></tr>
-          <tr><td>19:00</td><td>Cuentacuentos «Historias del barranco»</td><td>Carpa Cultural</td><td>45 min</td></tr>
-          <tr><td>21:30</td><td>Concierto de Timple y Marea</td><td>Escenario Plaza</td><td>75 min</td></tr>
-          <tr><td>23:00</td><td>Sesión de Colectivo Machango</td><td>Escenario Plaza</td><td>90 min</td></tr>
+          <tr>
+            <td>10:30</td>
+            <td>Apertura y mercadillo del barrio</td>
+            <td>Calle del Barranco</td>
+            <td>90 min</td>
+          </tr>
+          <tr>
+            <td>12:00</td>
+            <td>Taller Tambor de Callejón</td>
+            <td>Carpa Cultural</td>
+            <td>60 min</td>
+          </tr>
+          <tr>
+            <td>13:30</td>
+            <td>Pasacalles de timples</td>
+            <td>Plaza de Tamaraceite</td>
+            <td>45 min</td>
+          </tr>
+          <tr>
+            <td>17:00</td>
+            <td>Juegos tradicionales canarios</td>
+            <td>Parque del barrio</td>
+            <td>120 min</td>
+          </tr>
+          <tr>
+            <td>19:00</td>
+            <td>Cuentacuentos "Historias del barranco"</td>
+            <td>Carpa Cultural</td>
+            <td>45 min</td>
+          </tr>
+          <tr>
+            <td>21:30</td>
+            <td>Concierto de Timple y Marea</td>
+            <td>Escenario Plaza</td>
+            <td>75 min</td>
+          </tr>
+          <tr>
+            <td>23:00</td>
+            <td>Sesión de Colectivo Machango</td>
+            <td>Escenario Plaza</td>
+            <td>90 min</td>
+          </tr>
         </tbody>
       </table>
     </section>
 
+    <hr>
+
     <section id="informacion">
       <h2>Información útil</h2>
-      <h3>Recomendaciones para asistir</h3>
+      <h3>Consejos para venir al festival</h3>
       <ol>
-        <li>Llega con tiempo para encontrar un buen sitio.</li>
-        <li>Lleva agua, gorra y protección solar durante el día.</li>
-        <li>Trae una chaqueta ligera para la noche.</li>
-        <li>Usa el transporte público siempre que puedas.</li>
-        <li>Deposita los residuos en los contenedores.</li>
+        <li>Ven con tiempo si quieres coger buen sitio cerca del escenario.</li>
+        <li>Trae agua, gorra y crema solar para el mediodía.</li>
+        <li>Por la noche refresca un poco, así que trae algo de abrigo.</li>
+        <li>Mejor venir en guagua para no tener problemas de aparcamiento.</li>
+        <li>Usa las papeleras y mantén limpio el barrio.</li>
       </ol>
-      <h3>Servicios disponibles</h3>
+
+      <h3>Servicios que habrá en el recinto</h3>
       <ul>
-        <li>Zona de comida y bebida de productores locales.</li>
-        <li>Aseos accesibles.</li>
-        <li>Espacio infantil con monitores.</li>
+        <li>Puestos de comida y bebida local.</li>
+        <li>Baños adaptados.</li>
+        <li>Zona infantil con actividades para niños.</li>
         <li>Punto de información y primeros auxilios.</li>
       </ul>
     </section>
 
     <aside>
       <h2>Normas y cómo llegar</h2>
-      <h3>Normas de participación</h3>
-      <p>Se prohíbe el vidrio en el recinto. Los menores de 12 años deben ir acompañados de un adulto.</p>
-      <h3>Transporte</h3>
-      <p>
-        Tamaraceite está conectado por guaguas municipales. Consulta horarios en
-        <a href="https://www.guaguas.com/" target="_blank" rel="noopener noreferrer">Guaguas Municipales</a>.
-      </p>
+      <h3>Normas básicas</h3>
+      <p>No se puede entrar con botellas de vidrio. Los niños menores de 12 años tienen que venir acompañados de un adulto.</p>
+      <h3>Cómo llegar en guagua</h3>
+      <p>Hay varias líneas que suben hasta Tamaraceite. Puedes mirar las horas de paso en la web de <a href="https://www.guaguas.com/" target="_blank">Guaguas Municipales</a>.</p>
     </aside>
+
+    <hr>
 
     <section id="inscripcion">
       <h2>Inscripción en actividades</h2>
-      <p>Los campos con asterisco (*) son obligatorios.</p>
-      <!-- Cambia la URL por la de tu webhook -->
-      <form action="https://webhook.site/TU-URL-AQUI" method="POST">
+      <p>Rellena este formulario si quieres apuntarte a alguna actividad. Los campos con * son obligatorios.</p>
+
+      <form action="https://webhook.site/TU-URL-AQUI" method="post">
         <fieldset>
-          <legend>Datos personales</legend>
-          <p>
-            <label for="nombre">Nombre y apellidos *</label><br>
-            <input type="text" id="nombre" name="nombre" required>
-          </p>
-          <p>
-            <label for="email">Correo electrónico *</label><br>
-            <input type="email" id="email" name="email" required>
-          </p>
-          <p>
-            <label for="telefono">Teléfono</label><br>
-            <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}">
-          </p>
+          <legend>Tus datos</legend>
+          <label for="nombre">Nombre y apellidos *</label><br>
+          <input type="text" id="nombre" name="nombre" required><br><br>
+
+          <label for="email">Correo electrónico *</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="telefono">Teléfono</label><br>
+          <input type="tel" id="telefono" name="telefono"><br><br>
         </fieldset>
 
-        <fieldset>
-          <legend>Tu participación</legend>
-          <p>
-            <label for="actividad">Actividad preferida *</label><br>
-            <select id="actividad" name="actividad" required>
-              <option value="">Selecciona una opción</option>
-              <option value="taller-percusion">Taller Tambor de Callejón</option>
-              <option value="pasacalles">Pasacalles de timples</option>
-              <option value="juegos">Juegos tradicionales canarios</option>
-              <option value="cuentacuentos">Cuentacuentos</option>
-            </select>
-          </p>
-
-          <fieldset>
-            <legend>Horario preferido *</legend>
-            <input type="radio" id="manana" name="horario" value="manana" required>
-            <label for="manana">Mañana</label>
-            <input type="radio" id="tarde" name="horario" value="tarde">
-            <label for="tarde">Tarde</label>
-            <input type="radio" id="noche" name="horario" value="noche">
-            <label for="noche">Noche</label>
-          </fieldset>
-
-          <fieldset>
-            <legend>Servicios de interés</legend>
-            <input type="checkbox" id="infantil" name="servicios" value="espacio-infantil">
-            <label for="infantil">Espacio infantil</label>
-            <input type="checkbox" id="accesibilidad" name="servicios" value="accesibilidad">
-            <label for="accesibilidad">Accesibilidad</label>
-            <input type="checkbox" id="comida" name="servicios" value="comida-local">
-            <label for="comida">Comida local</label>
-          </fieldset>
-        </fieldset>
+        <br>
 
         <fieldset>
-          <legend>Comentarios</legend>
-          <label for="comentarios">¿Quieres añadir algo?</label><br>
-          <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea>
+          <legend>Datos de la actividad</legend>
+          <label for="actividad">¿A qué actividad te quieres apuntar? *</label><br>
+          <select id="actividad" name="actividad" required>
+            <option value="">Elige una opción</option>
+            <option value="taller">Taller Tambor de Callejón</option>
+            <option value="pasacalles">Pasacalles de timples</option>
+            <option value="juegos">Juegos tradicionales canarios</option>
+            <option value="cuentacuentos">Cuentacuentos</option>
+          </select><br><br>
+
+          <p><strong>Horario que prefieres *</strong></p>
+          <input type="radio" id="manana" name="horario" value="manana" required>
+          <label for="manana">Mañana</label><br>
+          <input type="radio" id="tarde" name="horario" value="tarde">
+          <label for="tarde">Tarde</label><br>
+          <input type="radio" id="noche" name="horario" value="noche">
+          <label for="noche">Noche</label><br><br>
+
+          <p><strong>Servicios que te interesan</strong></p>
+          <input type="checkbox" id="infantil" name="servicios[]" value="infantil">
+          <label for="infantil">Zona infantil</label><br>
+          <input type="checkbox" id="accesibilidad" name="servicios[]" value="accesibilidad">
+          <label for="accesibilidad">Acceso adaptado</label><br>
+          <input type="checkbox" id="comida" name="servicios[]" value="comida">
+          <label for="comida">Puestos de comida</label><br><br>
         </fieldset>
 
-        <p>
+        <br>
+
+        <fieldset>
+          <legend>Otros datos</legend>
+          <label for="comentarios">Comentarios o dudas</label><br>
+          <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea><br><br>
+
           <input type="checkbox" id="acepto" name="privacidad" value="aceptada" required>
-          <label for="acepto">He leído la <a href="#privacidad">política de privacidad</a> *</label>
-        </p>
+          <label for="acepto">He leído y acepto la <a href="#privacidad">política de privacidad</a> *</label><br><br>
+        </fieldset>
 
-        <button type="submit">Enviar solicitud</button>
+        <br>
+        <button type="submit">Enviar inscripción</button>
+        <button type="reset">Borrar todo</button>
       </form>
     </section>
 
+    <hr>
+
     <section id="privacidad">
       <h2>Política de privacidad</h2>
-      <p>
-        El formulario recoge tu nombre y apellidos, correo electrónico, teléfono (opcional), tus
-        preferencias de actividad, horario y servicios, y tus comentarios. Usaremos estos datos solo
-        para gestionar tu solicitud y contactar contigo sobre el festival. No se ceden a terceros y
-        se eliminarán al terminar el evento.
-      </p>
+      <p>En este formulario pedimos tu nombre, correo, teléfono y la actividad a la que te apuntas. Solo usaremos estos datos para organizar los grupos del festival y avisarte si hay algún cambio. No los compartimos con nadie y se borran cuando acabe el evento. Y en caso de apocalipsis de algún tipo nos quedamos con todas tus pertenencias.</p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2027 Barranco Vivo · Tamaraceite, Las Palmas de Gran Canaria.</p>
-    <ul>
-      <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-      <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-      <li><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-    </ul>
+    <p>&copy; 2027 Barranco Vivo - Tamaraceite, Las Palmas de Gran Canaria</p>
+    <p>
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a> |
+      <a href="https://www.facebook.com/" target="_blank">Facebook</a> |
+      <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+    </p>
     <p><a href="#inicio">Volver arriba</a></p>
   </footer>
 
